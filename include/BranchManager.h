@@ -1,7 +1,7 @@
 #ifndef BRANCH_MANAGER_H
 #define BRANCH_MANAGER_H
 
-#include <string>
+#include <string>                               
 #include <vector>
 
 // Manages branches for the repository.
@@ -44,3 +44,4 @@ public:
     void updateBranch(const std::string& name, const std::string& commitId);
 };
 
+#endif
