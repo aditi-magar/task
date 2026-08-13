@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include<utility>
 
 // Computes a simple line-based diff between two text blobs.
 // Uses LCS (Longest Common Subsequence) to identify added and removed lines.
