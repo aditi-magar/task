@@ -37,4 +37,3 @@ public:
     std::string getIndexFile()   const;
 };
 
-#endif
